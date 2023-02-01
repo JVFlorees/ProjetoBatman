@@ -1,0 +1,465 @@
+body {
+    font-family: 'Poppins'
+}
+
+.imagem_fundo {
+    background-color: black;
+    background-image: url("../imagens/fundo.png.jpeg");
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position: center top;
+}
+
+.fundo {
+    background-color: black;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.cabecalho .logo {
+    position: top;
+    width: 65px;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.4s all ease-in-out;
+}
+
+.cabecalho .logo:hover {
+    transform: scale(1.4);
+}
+
+.cabecalho nav li a {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 50px;
+    transition: 0.2s;
+    padding: 10px 20px;
+}
+
+.cabecalho nav li a:hover {
+    background-color: #a72802;
+}
+
+.cabecalho .menu {
+    /* colocar um elemento ao lado do outro */
+    display: flex;
+    /* para alinhar o item */
+    align-items: center;
+    /* altura do item */
+    height: 50%;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 515px;
+    padding: 0 30px 30px;
+}
+
+.container .imagem1 {
+    max-width: 500px;
+}
+
+.container .descricao {
+    color: #f3f3f8;
+    width: 85%;
+    font-size: 16px;
+    margin: 30px 0;
+}
+
+.container .botao {
+    background-color: #a72802;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.5s all ease-in-out;
+}
+
+.container .botao:hover {
+    transform: scale(1.1);
+}
+
+.rodape {
+    bottom: 0;
+    width: 100%;
+    color: #ffffff;
+    font-size: 13px;
+    background-color: #272727;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.imagem2 {
+    width: 250px;
+    background-position: bottom left;
+}
+/* Fim da Pagina Index - 1 Pagina*/
+
+/* Começo da pagina Biografia 2 Pagina */
+.container2 {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: calc(100%);
+    padding: 0 30px 60px;
+}
+
+.container2 .descricao2 {
+    color: #f3f3f8;
+    width: 85%;
+    font-size: 16px;
+    margin: 30px 0;
+}
+
+.imagem3pag {
+    width: 250px;
+    background-position: bottom left;
+}
+
+.imagem2pag {
+    width: 250px;
+    background-position: top left;
+}
+
+/* Fim da Pagina Biografia  2 Pagina */
+
+/* Começo da pagina Curiosidades 3 Pagina */
+
+.cinema {
+    background-color: rgb(27, 27, 27);
+    font-size: 26px;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.titulocinema {
+    max-width: 1440px;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    padding: 30px 20px;
+    margin: 0 auto;
+}
+
+.conteudocinemas {
+    display: flex;
+}
+
+.imagemcinema {
+    padding: 10px;
+    width: 280px;
+}
+
+.filmes2 {
+    padding: 0 40px;
+    position: center;
+    max-width: 2440px;
+    display: flex;
+}
+
+.filmes2 .filme1 {
+    padding: 10px 20px;
+    width: 250px;
+    height: 300px;
+}
+
+.jogos {
+    background-color: rgb(27, 27, 27);
+    font-size: 26px;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.imagemgotham {
+    padding: 20px 30px;
+    width: 300px;
+}
+
+.conteudojogos {
+    display: flex;
+}
+
+.conteudojogos .titulo {
+    max-width: 1440px;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.painel {
+    position: relative;
+    padding: 10px 70px;
+    border: 10px;
+    display: flex;
+}
+
+.imgsobre {
+    width: 180px;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.4s all ease-in-out;
+}
+
+.painel .imgsobre:hover {
+    transform: scale(1.7);
+}
+
+.imgsobre2 {
+    width: 90px;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.4s all ease-in-out;
+}
+
+.painel .imgsobre2:hover {
+    transform: scale(1.7);
+}
+
+.imgsobre3 {
+    width: 120px;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.4s all ease-in-out;
+}
+
+.painel .imgsobre3:hover {
+    transform: scale(1.7);
+}
+
+.imgsobre4 {
+    width: 120px;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.4s all ease-in-out;
+}
+
+.painel .imgsobre4:hover {
+    transform: scale(1.7);
+}
+
+.painel .tamanhopainel {
+    width: 300px;
+}
+
+/* Asa noturna */
+.cabecalho2 {
+    background-color: rgb(27, 27, 27);
+    font-size: 26px;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.legenda1 {
+    font-size: 23px;
+    color: #286fd8;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 0 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.legenda1 .logoasa {
+    width: 100px;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.4s all ease-in-out;
+}
+
+.legenda1 .logoasa:hover {
+    transform: scale(1.5);
+}
+
+.containerasa {
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: calc(100%);
+    padding: 0 30px 60px;
+}
+
+.containerasa .descricaoasa {
+    color: #ffffff;
+    display: flex;
+    width: 60%;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.containerasa .asanoturna {
+    padding-right: 40px;
+    width: 350px;
+}
+
+/* Capuz Vermelho */
+.legenda2 {
+    font-size: 23px;
+    color: #a72802;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 0 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.legenda2 .logocapuz {
+    width: 90px;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.4s all ease-in-out;
+}
+
+.legenda2 .logocapuz:hover {
+    transform: scale(1.5);
+}
+
+.containercapuz {
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: calc(100%);
+    padding: 0 30px 60px;
+}
+
+.containercapuz .descricaocapuz {
+    color: #ffffff;
+    display: flex;
+    width: 60%;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.containercapuz .capuzvermelho {
+    padding-right: 40px;
+    width: 300px;
+}
+
+/* Robin */
+.legenda3 {
+    font-size: 23px;
+    color: #bdb005;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 0 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.legenda3 .logorobin {
+    width: 100px;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.4s all ease-in-out;
+}
+
+.legenda3 .logorobin:hover {
+    transform: scale(1.5);
+}
+
+.containerrobin {
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: calc(100%);
+    padding: 0 30px 60px;
+}
+
+.containerrobin .descricaorobin {
+    color: #ffffff;
+    display: flex;
+    width: 60%;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.containerrobin .robin {
+    padding-right: 40px;
+    width: 380px;
+}
+
+/* Batgirl */
+.legenda4 {
+    font-size: 23px;
+    color: #97439e;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 0 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.legenda4 .logobatgirl {
+    width: 70px;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.4s all ease-in-out;
+}
+
+.legenda4 .logobatgirl:hover {
+    transform: scale(1.2);
+}
+
+.containerbatgirl {
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: calc(50%);
+    padding: 0 30px 60px;
+}
+
+.containerbatgirl .descricaobatgirl {
+    color: #ffffff;
+    display: flex;
+    width: 60%;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.containerbatgirl .batgirl {
+    padding-right: 40px;
+    width: 330px;
+}
+
+/* Fim da Pagina Curiosidades 3 Pagina */
